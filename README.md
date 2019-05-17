@@ -1,6 +1,6 @@
 # terraform-s3-cloudfront-site
 
-A Terraform module to create an AWS Cloudfront Distrobution backed by an S3 Bucket
+A Terraform module to create an AWS Cloudfront Distribution backed by an S3 Bucket
 
 ## Usage
 
