@@ -6,7 +6,7 @@ A Terraform module to create an AWS Cloudfront Distrobution backed by an S3 Buck
 
 ```hcl
 module "site" {
-  source    = "github.com/azaveakyeotic/terraform-s3-cloudfront-site?ref=1.0.0"
+  source    = "github.com/kyeotic/terraform-s3-cloudfront-site?ref=1.0.0"
   site_name = "your-website.com"
   cert_arn  = "${var.your-cert-arn}"
 }
